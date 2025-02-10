@@ -9,6 +9,7 @@ use ou Terminal / CMD / PowerShell
 Digite os comandos
 
 -- pip install yt-dlp
+
 -- pip install customtkinter
 
 Depois de instalar, execulte o arquivo
