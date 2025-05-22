@@ -1,7 +1,6 @@
 import customtkinter as ctk
 import yt_dlp
 
-
 def baixar_audio():
     url_video = entry_url.get()
     if url_video:
@@ -25,13 +24,14 @@ def baixar_audio():
 window = ctk.CTk()
 window.title("Download Audio")
 window.resizable(False, False)
-window.geometry("250x150")
+window.attributes('-alpha', 0.95)
+window.geometry("350x150")
 
 entry_url = ctk.CTkEntry(
-    window, width=200, placeholder_text="Digite a URL do vídeo")
+    window, width=290, placeholder_text="Cole a URL do vídeo",fg_color="#303030",font=("Inter", 12))
 entry_url.pack(pady=20)
 
-btn_baixar = ctk.CTkButton(window, text="Download", command=baixar_audio)
+btn_baixar = ctk.CTkButton(window, text="Download", command=baixar_audio, fg_color="#010101", hover_color="#101010",font=("Inter", 12))
 btn_baixar.pack(pady=10)
 
 status_label = ctk.CTkLabel(window, text="")
