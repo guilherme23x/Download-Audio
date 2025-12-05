@@ -1,5 +1,5 @@
 <p align='center'>
-<img src="https://github.com/user-attachments/assets/6c3c8496-a0b4-4fe0-ae9d-1278ee30b057" height="400" />
+<img width="515" height="768" alt="Captura de tela 2025-12-05 085936" src="https://github.com/user-attachments/assets/8e040f0d-f6b9-4017-833d-26fbfc44c401" />
 </p>
 
 Instalar Python:
@@ -12,8 +12,10 @@ use ou Terminal / CMD / PowerShell
 
 Digite os comandos
 
+-- winget install ffmpeg
+
 -- pip install yt-dlp
 
--- pip install customtkinter
+-- pip install flet
 
 Depois de instalar, execulte o arquivo
